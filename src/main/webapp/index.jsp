@@ -64,5 +64,12 @@
             ${requestScope.error}
 
         </c:if>
+
+        <br>
+        <br>
+
+        <form name="register" action="LogoutServlet" method="POST">
+            <input type="submit" value="Logout">
+        </form>
     </body>
 </html>

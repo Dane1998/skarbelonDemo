@@ -12,14 +12,13 @@
         <title>Customer home page</title>
     </head>
     <body>
-
-
         <h1>Hello ${sessionScope.email} </h1>
-
-
-
-
-
         You are now logged in as a customer of our wonderful site.
+        <br>
+        <br>
+
+        <form name="register" action="LogoutServlet" method="POST">
+            <input type="submit" value="Logout">
+        </form>
     </body>
 </html>
